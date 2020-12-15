@@ -11,8 +11,8 @@ Tested on Zabbix 5.0 (LTS).
 
 ![Discord chat example](img/discord-compact-example.png)
 
-Script errors will be writhen to zabbix-server.log\
-For debugging content of requests and responses can pe logged to by changing logging level of Zabbix server or script only (see comments in code).
+Script errors will be writen to zabbix-server.log\
+For debugging content of requests and responses can be logged to zabbix-server.log by changing logging level of Zabbix server or script only (see comments in code).
 
 #### Installation
 
@@ -26,8 +26,8 @@ Create new Media type with Type = "Webhook":
 
 *Parameters*:
   * **HTTPProxy**
-  * **Message**: `{ALERT.SUBJECT}`
-  * **Subject**: `{ALERT.MESSAGE}`
+  * **Message**: `{ALERT.MESSAGE}`
+  * **Subject**: `{ALERT.SUBJECT}`
   * **WebHookURL**: `{ALERT.SENDTO}`
 
 Next step is "Message templates" for new Media type.\
