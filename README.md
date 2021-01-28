@@ -40,7 +40,7 @@ Subject: `{HOST.NAME}`
 Message:\
 `{EVENT.TIME} PROBLEM: {EVENT.NAME}`\
 `{EVENT.RECOVERY.TIME} OK: {EVENT.NAME}`\
-`{EVENT.UPDATE.TIME} Updated problem: {EVENT.UPDATE.MESSAGE}`\
+`{EVENT.UPDATE.TIME} Updated problem: {EVENT.UPDATE.MESSAGE}`
 
 Theese will be a default messages using Discord as Media.\
 If you need some custom message it can be done editing Action. Just set "Custom message" checkbox on "Operation details" page.\
