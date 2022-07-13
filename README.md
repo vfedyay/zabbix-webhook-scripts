@@ -7,7 +7,7 @@ discord-script.js
 -----------------
 
 WebHook script with minimalistic information output. Host name from Zabbix is used in field "username" of webhook. It causes grouping of alerts from the same monitored host.\
-Tested on Zabbix 5.0 (LTS).
+Tested on Zabbix 5.0 and 6.0 (LTS).
 
 ![Discord chat example](img/discord-compact-example.png)
 
